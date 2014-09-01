@@ -1,0 +1,25 @@
+{
+  "name": "trackjs",
+  "version": "2.1.1",
+  "authors": [
+    "TrackJS LLC"
+  ],
+  "description": "A TrackJS module for adding the TrackJS script to your application.",
+  "main": "dist/tracker.js",
+  "keywords": [
+    "error",
+    "exception",
+    "tracking",
+    "logging"
+  ],
+  "license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED",
+  "homepage": "http://github.com/trackjs/trackjs-bower",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
