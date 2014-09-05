@@ -17,6 +17,7 @@
   "private": true,
   "ignore": [
     "**/.*",
+    ".npmignore",
     "node_modules",
     "bower_components",
     "test",

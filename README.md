@@ -1,13 +1,20 @@
 TrackJS
 ===============
 
-A [TrackJS](http://www.trackjs.com) Bower module. You'll need a [TrackJS Account](http://trackjs.com/).
+A [TrackJS](http://www.trackjs.com) module for package managers. You'll need a [TrackJS Account](http://trackjs.com/).
 
-##Install
+##Install TrackJS Module
 
-####Bower
+####Package Managers
 
-	bower install trackjs --save
+* Bower 'bower install trackjs --save'
+* NPM 'npm install trackjs'
+
+####Install TrackJS
+
+1. [Installation Instructions](http://docs.trackjs.com/Getting_Started/Installation)
+2. [API Reference](http://docs.trackjs.com/Api_Reference/Initialization)
+3. [Examples](http://docs.trackjs.com/Examples/Bundled_Scripts)
 
 ####Activate account
 
@@ -16,11 +23,5 @@ A [TrackJS](http://www.trackjs.com) Bower module. You'll need a [TrackJS Account
 ##Documentation
 
 View the TrackJS [docs](http://docs.trackjs.com) for more information.
-
-####Quick Links
-
-1. [Installation Instructions](http://docs.trackjs.com/Getting_Started/Installation)
-2. [API Reference](http://docs.trackjs.com/Api_Reference/Initialization)
-3. [Examples](http://docs.trackjs.com/Examples/Bundled_Scripts)
 
 COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED
