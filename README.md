@@ -8,7 +8,6 @@ A [TrackJS](http://www.trackjs.com) module for package managers. You'll need a [
 ####Package Managers
 
 * Bower 'bower install trackjs --save'
-* NPM 'npm install trackjs'
 
 ####Install TrackJS
 
