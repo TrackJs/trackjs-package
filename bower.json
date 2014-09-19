@@ -13,8 +13,7 @@
     "logging"
   ],
   "license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED",
-  "homepage": "http://github.com/trackjs/trackjs-bower",
-  "private": true,
+  "homepage": "http://github.com/trackjs/trackjs-package",
   "ignore": [
     "**/.*",
     ".npmignore",
