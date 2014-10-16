@@ -4,8 +4,8 @@
 	"authors": [
 		"TrackJS LLC"
 	],
-	"description": "A TrackJS module for adding the TrackJS script to your application.",
-	"main": "dist/tracker.js",
+	"description": "A JavaScript error tracking service for modern web applications. Signup at http://trackjs.com",
+	"main": "tracker.js",
 	"keywords": [
 		"error",
 		"exception",
@@ -13,7 +13,7 @@
 		"logging"
 	],
 	"license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED",
-	"homepage": "http://github.com/trackjs/trackjs-package",
+	"homepage": "http://trackjs.com",
 	"ignore": [
 		"**/.*",
 		".npmignore",
