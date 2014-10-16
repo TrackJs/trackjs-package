@@ -1,18 +1,18 @@
 {
-"author": "TrackJS LLC (trackjs.com)",
-"name": "trackjs",
-"description": "A TrackJS module for adding the TrackJS script to your application.",
-"version": "2.1.1",
-"repository": {
-    "type": "git",
-    "url": "git://github.com/trackjs/trackjs-npm.git"
-},
-"main": "dist/tracker.js",
-"keywords": [
-    "error",
-    "exception",
-    "tracking",
-    "logging"
-],
-"license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED"
+	"author": "TrackJS LLC (trackjs.com)",
+	"name": "trackjs",
+	"description": "A TrackJS module for adding the TrackJS script to your application.",
+	"version": "2.1.2",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/trackjs/trackjs-npm.git"
+	},
+	"main": "dist/tracker.js",
+	"keywords": [
+		"error",
+		"exception",
+		"tracking",
+		"logging"
+	],
+	"license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED"
 }
