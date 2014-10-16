@@ -1,6 +1,7 @@
 {
-	"author": "TrackJS",
+	"author": "TrackJS <hello@trackjs.com>",
 	"name": "trackjs",
+	"url" : "http://trackjs.com",
 	"description": "A JavaScript error tracking service for modern web applications. Signup at http://trackjs.com",
 	"version": "2.1.2",
 	"repository": {
