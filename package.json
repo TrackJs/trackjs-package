@@ -3,7 +3,7 @@
 	"name": "trackjs",
 	"url": "http://trackjs.com",
 	"description": "A JavaScript error tracking service for modern web applications. Signup at http://trackjs.com",
-	"version": "2.1.3",
+	"version": "2.1.4",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/trackjs/trackjs-package.git"
