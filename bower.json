@@ -4,16 +4,18 @@
 	"authors": [
 		"TrackJS LLC"
 	],
-	"description": "A JavaScript error tracking service for modern web applications. Signup at http://trackjs.com",
+	"description": "A JavaScript error monitoring service for modern web applications. Signup at https://trackjs.com/",
 	"main": "tracker.js",
 	"keywords": [
 		"error",
 		"exception",
+		"monitoring",
 		"tracking",
-		"logging"
+		"logging",
+		"crash reporting"
 	],
-	"license": "COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED",
-	"homepage": "http://trackjs.com",
+	"license": "COPYRIGHT (c) 2014-2016 TrackJS LLC ALL RIGHTS RESERVED",
+	"homepage": "https://trackjs.com/",
 	"ignore": [
 		"**/.*",
 		".npmignore",

@@ -3,21 +3,15 @@ TrackJS
 
 A JavaScript error tracking service for modern web applications. See the story of the error with the activities the user, the network, and your application did leading up to the error. It's like an airplane's BlackBox for your webapp.
 
-[Signup for TrackJS](https://my.trackjs.com/signup).
+[Signup for TrackJS](https://trackjs.com/signup).
 
 This package keeps your client tracker script for TrackJS up to date. See the [Changelog](http://docs.trackjs.com/Changelog).
 
 ### One Minute Install
 
-0. [Signup for TrackJS](https://my.trackjs.com/signup).
+0. [Signup for TrackJS](https://trackjs.com/signup).
 
-1. Paste this script into your page:
-
-```html
-<script type="text/javascript"
-        src="//PATH_TO_MODULE/tracker.js"
-        data-token="YOUR_TOKEN"></script>
-```
+1. Paste the installation snippet into your page.
 
 2. Open your application. In the developer console track your first error:
 
@@ -33,4 +27,4 @@ http://docs.trackjs.com
 
 ### License
 
-COPYRIGHT (c) 2014 TrackJS LLC ALL RIGHTS RESERVED
+COPYRIGHT (c) 2014-2016 TrackJS LLC ALL RIGHTS RESERVED
