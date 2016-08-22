@@ -4,7 +4,7 @@
 	"url": "https://trackjs.com",
 	"homepage": "https://trackjs.com",
 	"description": "A JavaScript error monitoring service for modern web applications. Signup at https://trackjs.com",
-	"version": "2.5.0",
+	"version": "2.5.1",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/trackjs/trackjs-package.git"
