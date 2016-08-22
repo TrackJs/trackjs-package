@@ -1,17 +1,14 @@
 // Type definitions for tracker.js
 // Project: https://github.com/TrackJS/trackjs-package
 
-declare var trackJs: TrackJSStatic;
-declare var window: TrackJSWindow;
-
 /** String formatted as an ISO-8601 Date. Example 0000-00-00T00:00:00.000Z */
-export interface ISO8601DateString extends String {}
+interface ISO8601DateString extends String {}
 
 /**
  * Payload of an error sent to TrackJS. Useful when manipulating errors via
  * the `onError` callback.
  */
-export interface TrackJSPayload {
+interface TrackJSPayload {
 
   /**
    * Stack trace at time of asynchronous callback binding.
@@ -94,6 +91,19 @@ export interface TrackJSPayload {
     viewportWidth: number;
 
   };
+
+  /**
+   * Custom environment metadata.
+   */
+  metadata: {
+
+    /** metadata group name */
+    key: string;
+
+    /** metadata value */
+    value: string;
+
+  }[];
 
   /** Error message */
   message: string;
@@ -178,7 +188,7 @@ export interface TrackJSPayload {
 /**
  * Configuration options that can be passed to `trackJs.configure()`
  */
-export interface TrackJSOptions {
+interface TrackJSOptions {
 
   /**
    * Custom handler to be notified *before* an error is transmitted. Can be used
@@ -216,7 +226,7 @@ export interface TrackJSOptions {
 /**
  * Configuration options that are initialized from `window._trackJs`
  */
-export interface TrackJSInitOptions extends TrackJSOptions {
+interface TrackJSInitOptions extends TrackJSOptions {
 
   /**
    * Your account token. Get this from `https://my.trackjs.com/install`
@@ -333,15 +343,20 @@ export interface TrackJSInitOptions extends TrackJSOptions {
      */
     enabled?: boolean;
 
+    /**
+      * Whether events should be recorded from globally unhandled promise
+      * rejections, if supported. default true.
+      */
+    promise?: boolean;
+
   };
 
 }
 
-export interface TrackJSWindow extends Window {
-  _trackJs: TrackJSInitOptions;
-}
-
-export interface TrackJSStatic {
+/**
+ * The TrackJS global namespace for functions.
+ */
+interface TrackJSStatic {
 
   /**
    * Adds a new key-value pair to the metadata store. If the key already exists
@@ -454,4 +469,16 @@ export interface TrackJSStatic {
    */
   version: string;
 
+}
+
+/**
+ * TrackJS initialization object, hanging off of the window.
+ */
+interface Window {
+  _trackJs: TrackJSInitOptions
+}
+
+declare var trackJs: TrackJSStatic;
+declare module "Tracker" {
+  export = trackJs;
 }
