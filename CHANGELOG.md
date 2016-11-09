@@ -1,7 +1,18 @@
 JavaScript Browser Agent Changelog
 ==================================
 
-## [Version 2.5.2](https://cdn.trackjs.com/releases/2.5.1/tracker.js) (2016-10-22)
+## [Version 2.5.3](https://cdn.trackjs.com/releases/2.5.3/tracker.js) (2016-11-08)
+
+Features:
+
+  - None
+
+Bugfixes:
+
+  - Fixed support for wrapping `EventHandler` objects passed into `addEventListener`.
+
+
+## [Version 2.5.2](https://cdn.trackjs.com/releases/2.5.2/tracker.js) (2016-10-22)
 
 Features:
 
@@ -10,7 +21,6 @@ Features:
 Bugfixes:
 
   - None
-
 
 ## [Version 2.5.1](https://cdn.trackjs.com/releases/2.5.1/tracker.js) (2016-08-22)
 
