@@ -1,30 +1,29 @@
 TrackJS
 ===============
 
-A JavaScript error tracking service for modern web applications. See the story of the error with the activities the user, the network, and your application did leading up to the error. It's like an airplane's BlackBox for your webapp.
+The JavaScript Browser Agent for JavaScript Browser Error Monitoring from TrackJS.
 
-[Signup for TrackJS](https://trackjs.com/signup).
+The agent wraps the Browser's API to record context about your application, the network, and the visitor leading up to errors, allowing you to recreate and debug errors fast.
 
-This package keeps your client tracker script for TrackJS up to date. See the [Changelog](http://docs.trackjs.com/Changelog).
+**[Signup for TrackJS](https://trackjs.com/signup?utm_source=repository)**.
 
-### One Minute Install
+**[Documentation](http://docs.trackjs.com/)**
 
-0. [Signup for TrackJS](https://trackjs.com/signup).
+## Quickstart
 
-1. Paste the installation snippet into your page.
+1. [Signup for TrackJS](https://trackjs.com/signup?utm_source=repository) and get your token.
+2. Create a `_trackJs` initialization object in your app:
 
-2. Open your application. In the developer console track your first error:
+    ```javascript
+    window._trackJs = { // Complete reference at http://docs.trackjs.com/
+      token: 'YOUR_TOKEN_HERE'
+    };
+    ```
 
-```javacript
-trackJs.track('Hello TrackJS');
-```
-3. Check [recent errors](https://my.trackjs.com/recent) and see your error.
+3. Include the `tracker.js` script in your app, after the initialization object. You can either reference directly, or bundle it into your other sources. We recommend that `tracker.js` be the first script to execute so that it can catch errors from everything else.
 
-### Documentation
+4. Test it out by tracking an error, either in your code or from the console: `trackJs.track('testing!')`
 
-There are tons of customizations and special capabilities. Check out the docs for all the details:
-http://docs.trackjs.com
+5. See the new error in your [TrackJS Recent Errors](https://my.trackjs.com/recent) within a few seconds.
 
-### License
-
-COPYRIGHT (c) 2014-2016 TrackJS LLC ALL RIGHTS RESERVED
+If you run into any trouble, let us know right away at `hello@trackjs.com`

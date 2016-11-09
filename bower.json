@@ -1,27 +1,23 @@
 {
-	"name": "trackjs",
-	"version": "2.5.1",
-	"authors": [
-		"TrackJS LLC"
-	],
-	"description": "A JavaScript error monitoring service for modern web applications. Signup at https://trackjs.com/",
-	"main": "tracker.js",
-	"keywords": [
-		"error",
-		"exception",
-		"monitoring",
-		"tracking",
-		"logging",
-		"crash reporting"
-	],
-	"license": "COPYRIGHT (c) 2014-2016 TrackJS LLC ALL RIGHTS RESERVED",
-	"homepage": "https://trackjs.com/",
-	"ignore": [
-		"**/.*",
-		".npmignore",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	]
+  "name": "trackjs",
+  "version": "2.5.2",
+  "authors": ["TrackJS LLC"],
+  "description": "TrackJS JavaScript error monitoring agent.",
+  "license": "UNLICENSED",
+  "main": "tracker.js",
+  "moduleType": "globals",
+  "ignore": [],
+  "keywords": [
+    "error",
+    "exception",
+    "monitoring",
+    "tracking",
+    "logging",
+    "crash reporting"
+  ],
+  "homepage": "https://trackjs.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TrackJs/trackjs-package.git"
+  }
 }
