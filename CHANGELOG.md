@@ -1,6 +1,18 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+
+## [Version 2.6.0](https://cdn.trackjs.com/releases/2.6.0/tracker.js) (2016-11-25)
+
+Features:
+
+  - Added navigation telemetry for `history.pushState`, `history.replaceState`, and `popstate` events.
+
+Bugfixes:
+
+  - None
+
+
 ## [Version 2.5.3](https://cdn.trackjs.com/releases/2.5.3/tracker.js) (2016-11-08)
 
 Features:
