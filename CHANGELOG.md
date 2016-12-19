@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.6.1](https://cdn.trackjs.com/releases/2.6.1/tracker.js) (2016-12-17)
+
+Features:
+
+  - None
+
+Bugfixes:
+
+  - Changed the `addEventListener` wrapping behavior to use `EventTarget` if it exists. This resolves a conflict with ZoneJS and Angular2.
+
 
 ## [Version 2.6.0](https://cdn.trackjs.com/releases/2.6.0/tracker.js) (2016-11-25)
 
