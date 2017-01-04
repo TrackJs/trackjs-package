@@ -1,6 +1,20 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.6.2](https://cdn.trackjs.com/releases/2.6.2/tracker.js) (2016-12-29)
+
+Features:
+
+  - Instances of `Error` will be correctly serialized out into JSON strings.
+  - Instances of `HTMLElement` will be serialized out as HTML representations.
+  - Objects with circular references will be serialized using a fallback first-level-only serializer.
+
+Bugfixes:
+
+  - Corrected serialization of instantiated strings to not be double-quoted.
+  - Corrected serialization of undefined and NaN values within an array.
+
+
 ## [Version 2.6.1](https://cdn.trackjs.com/releases/2.6.1/tracker.js) (2016-12-17)
 
 Features:

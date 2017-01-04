@@ -1,6 +1,6 @@
 {
   "name": "trackjs",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "authors": ["TrackJS LLC"],
   "description": "TrackJS JavaScript error monitoring agent.",
   "license": "UNLICENSED",
