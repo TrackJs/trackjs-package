@@ -1,6 +1,17 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.6.3](https://cdn.trackjs.com/releases/2.6.3/tracker.js) (2017-01-27)
+
+Features:
+
+  - None
+
+Bugfixes:
+
+  - Corrected issue with removing event listeners that may have been attached before the tracker has initialized.
+
+
 ## [Version 2.6.2](https://cdn.trackjs.com/releases/2.6.2/tracker.js) (2016-12-29)
 
 Features:
