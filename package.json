@@ -1,8 +1,9 @@
 {
   "name": "trackjs",
-  "version": "2.6.4",
+  "version": "2.7.0",
   "description": "TrackJS JavaScript error monitoring agent.",
   "main": "tracker.js",
+  "typings": "tracker.d.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/TrackJs/trackjs-package.git"

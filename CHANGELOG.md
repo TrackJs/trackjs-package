@@ -1,6 +1,20 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.7.0](https://cdn.trackjs.com/releases/2.7.0/tracker.js) (2017-03-15)
+
+Features:
+
+  - Added configurable capability to de-duplicate subsequent errors that have the same message and stack trace through the same error entry point.
+  - Created `Promise` error entry type and expanded unhandledrejection promise capture to include the BluebirdJS polyfill.
+
+Bugfixes:
+
+  - Disabled tracker no longer prints warnings about a missing API Key
+  - Prevent case where an `undefined` error message could be represented as `'{}'`
+  - Fixed timing of Page View pixel to wait for document load even on older browsers. Load will timeout at 10 seconds and send the pixel regardless.
+  - Fixed issue where `addEventListener` with malformed capture options could cause an infinite recursion.
+  - Fixed configuration of TypeScript definition typings.
 
 ## [Version 2.6.4](https://cdn.trackjs.com/releases/2.6.4/tracker.js) (2017-03-03)
 
