@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.7.1](https://cdn.trackjs.com/releases/2.7.1/tracker.js) (2017-03-30)
+
+Bugfixes:
+
+  - Removed internal error payload cloning to reduce "Out of Memory" internal errors
+
 ## [Version 2.7.0](https://cdn.trackjs.com/releases/2.7.0/tracker.js) (2017-03-15)
 
 Features:

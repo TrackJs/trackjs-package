@@ -1,6 +1,6 @@
 {
   "name": "trackjs",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "description": "TrackJS JavaScript error monitoring agent.",
   "main": "tracker.js",
   "typings": "tracker.d.ts",
@@ -9,7 +9,7 @@
     "url": "git://github.com/TrackJs/trackjs-package.git"
   },
   "author": "TrackJS LLC",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/TrackJs/trackjs-package/issues"
   },
