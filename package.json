@@ -21,5 +21,6 @@
     "LICENSE.md",
     "tracker.js",
     "tracker.d.ts"
-  ]
+  ],
+  "typings": "tracker.d.ts"
 }
