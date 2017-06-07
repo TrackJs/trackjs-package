@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.8.1](https://cdn.trackjs.com/releases/2.8.1/tracker.js) (2017-06-07)
+
+Features:
+
+  - None
+
+Bugfixes:
+
+  - Disable fetch that had been released while we debug an issue.
+
 ## [Version 2.8.0](https://cdn.trackjs.com/releases/2.8.0/tracker.js) (2017-06-02)
 
 Features:
