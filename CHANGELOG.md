@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.8.0](https://cdn.trackjs.com/releases/2.8.0/tracker.js) (2017-06-02)
+
+Features:
+
+  - Added support for `fetch` network events to the Telemetry Timeline.
+
+Bugfixes:
+
+  - None.
+
 ## [Version 2.7.1](https://cdn.trackjs.com/releases/2.7.1/tracker.js) (2017-03-30)
 
 Bugfixes:
