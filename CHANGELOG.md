@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.8.2](https://cdn.trackjs.com/releases/2.8.2/tracker.js) (2017-06-08)
+
+Features:
+
+  - None
+
+Bugfixes:
+
+  - Fixed bug in fetch wrapping that caused failures when a prepopulated `Request` object was used.
+
 ## [Version 2.8.1](https://cdn.trackjs.com/releases/2.8.1/tracker.js) (2017-06-07)
 
 Features:

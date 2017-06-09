@@ -1,6 +1,6 @@
 {
   "name": "trackjs",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "TrackJS JavaScript error monitoring agent.",
   "main": "tracker.js",
   "typings": "tracker.d.ts",
