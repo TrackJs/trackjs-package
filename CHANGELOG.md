@@ -1,6 +1,17 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.8.3](https://cdn.trackjs.com/releases/2.8.3/tracker.js) (2017-06-22)
+
+Features:
+
+  - Added ability to disable Fetch wrapping using `network.fetch = false` in the initialization object. This works around an old ZoneJS bug that has been patched in their library, but still has a large presence.
+
+Bugfixes:
+
+  - Fixed bug where duplicate garbage data could be sent when a Fetch request completes.
+
+
 ## [Version 2.8.2](https://cdn.trackjs.com/releases/2.8.2/tracker.js) (2017-06-08)
 
 Features:
