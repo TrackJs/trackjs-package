@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.8.4](https://cdn.trackjs.com/releases/2.8.4/tracker.js) (2017-06-28)		
+
+Features:		
+  - None.		
+
+Bugfixes:		
+
+  - Fixed issue in default serializer that could cause error "Right-hand side of 'instanceof' is not an object" when the page had mangled the value of `HTMLElement`.		
+
+
 ## [Version 2.8.3](https://cdn.trackjs.com/releases/2.8.3/tracker.js) (2017-06-22)
 
 Features:
