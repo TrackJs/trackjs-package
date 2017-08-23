@@ -191,6 +191,12 @@ interface TrackJSPayload {
 interface TrackJSOptions {
 
   /**
+   * Whether duplicate errors should be suppressed before sending.
+   * default true.
+   */
+  dedupe?: boolean;
+
+  /**
    * Custom handler to be notified *before* an error is transmitted. Can be used
    * to modify or ignore error data.
    */

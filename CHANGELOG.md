@@ -1,7 +1,17 @@
 JavaScript Browser Agent Changelog
 ==================================
 
-## [Version 2.8.4](https://cdn.trackjs.com/releases/2.8.4/tracker.js) (2017-06-28)		
+## [Version 2.8.5](https://cdn.trackjs.com/releases/2.8.5/tracker.js) (2017-08-23)
+
+Features:
+  - None.
+
+Bugfixes:
+
+  - Fixed missing type definition for the dedupe option.
+
+
+## [Version 2.8.4](https://cdn.trackjs.com/releases/2.8.4/tracker.js) (2017-06-28)
 
 Features:		
   - None.		
