@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.9.0](https://cdn.trackjs.com/releases/2.9.0/tracker.js) (2017-09-07)
+
+Features:
+  - Added capture of the original page URL and referrer to the error payload.
+
+Bugfixes:
+  - None.
+
+
 ## [Version 2.8.5](https://cdn.trackjs.com/releases/2.8.5/tracker.js) (2017-08-23)
 
 Features:
