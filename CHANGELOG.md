@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.10.0](https://cdn.trackjs.com/releases/2.9.0/tracker.js) (2017-11-03)
+
+Features:
+  - Added patching of function properties and prototype from a callback onto the wrapped function. This makes it less obvious that we have changed out the function.
+
+Bugfixes:
+  - Fixed issue where Promise rejections from browser extensions could throw "Permission Denied" on Firefox when accessing the `reason` property.
+  - Fixed issue with how we track the lifecycle of callback functions to use an external state approach. While this approach will expose some TrackJS internals into the global namespace ("__trackjs__"), it is more resilient to the varied kinds of callbacks we need to support.
+  - Fixed issue where we could double-wrap callback functions, causing unnecessarily long stack traces.
+
 ## [Version 2.9.0](https://cdn.trackjs.com/releases/2.9.0/tracker.js) (2017-09-07)
 
 Features:
