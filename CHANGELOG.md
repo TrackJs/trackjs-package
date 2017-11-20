@@ -1,7 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
-## [Version 2.10.0](https://cdn.trackjs.com/releases/2.9.0/tracker.js) (2017-11-03)
+## [Version 2.10.1](https://cdn.trackjs.com/releases/2.10.1/tracker.js) (2017-11-16)
+
+Features:
+  - None
+
+Bugfixes:
+  - Suppress an "Permission Denied" error that may occur in Selenium Firefox environments due to our wrapping.
+
+
+## [Version 2.10.0](https://cdn.trackjs.com/releases/2.10.0/tracker.js) (2017-11-03)
 
 Features:
   - Added patching of function properties and prototype from a callback onto the wrapped function. This makes it less obvious that we have changed out the function.
