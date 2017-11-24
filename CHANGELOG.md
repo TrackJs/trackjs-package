@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.10.2](https://cdn.trackjs.com/releases/2.10.2/tracker.js) (2017-11-21)
+
+Features:
+  - None
+
+Bugfixes:
+  - Handle case where customer wraps `Function.prototype` that prevented later function wrapping.
+
+
 ## [Version 2.10.1](https://cdn.trackjs.com/releases/2.10.1/tracker.js) (2017-11-16)
 
 Features:
