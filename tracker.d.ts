@@ -28,7 +28,7 @@ interface TrackJSPayload {
     /** Timestamp the event occurred */
     timestamp: ISO8601DateString;
 
-    /** Console severity of the event */
+    /** Console sevity of the event */
     severity: string;
 
     /** Formatted message captured */

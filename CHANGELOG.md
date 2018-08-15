@@ -1,6 +1,17 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.11.0](https://cdn.trackjs.com/releases/2.11.0/tracker.js) (2018-08-10)
+
+Features:
+  - Added truncation of Network Telemetry URLS to 2000 characters.
+  - Added limit to Visitor Telemetry Elements of 10 Attributes.
+  - Added limit to Visitor Telemetry Element Attributes of 100 characters.
+  - Added truncation of Console Telemetry to 1000 characters if the total Console Telemetry size is larger than 80,000 characters. Truncation will be applied to console messages one at a time, oldest first, until within the limit.
+
+Bugfixes:
+  - None
+
 ## [Version 2.10.2](https://cdn.trackjs.com/releases/2.10.2/tracker.js) (2017-11-21)
 
 Features:
@@ -50,12 +61,12 @@ Bugfixes:
 
 ## [Version 2.8.4](https://cdn.trackjs.com/releases/2.8.4/tracker.js) (2017-06-28)
 
-Features:		
-  - None.		
+Features:
+  - None.
 
-Bugfixes:		
+Bugfixes:
 
-  - Fixed issue in default serializer that could cause error "Right-hand side of 'instanceof' is not an object" when the page had mangled the value of `HTMLElement`.		
+  - Fixed issue in default serializer that could cause error "Right-hand side of 'instanceof' is not an object" when the page had mangled the value of `HTMLElement`.
 
 
 ## [Version 2.8.3](https://cdn.trackjs.com/releases/2.8.3/tracker.js) (2017-06-22)
@@ -508,7 +519,7 @@ Features:
 
 Bugfixes:
 
-  - None  
+  - None
 
 ## [Version 1.2.4](https://cdn.trackjs.com/releases/1.2.4/tracker.js) (2014-04-03)
 
