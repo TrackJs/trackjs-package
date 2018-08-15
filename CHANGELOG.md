@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.11.1](https://cdn.trackjs.com/releases/2.11.1/tracker.js) (2018-08-14)
+
+Features:
+  - None
+
+Bugfixes:
+  - Deployment pipeline check
+
+
 ## [Version 2.11.0](https://cdn.trackjs.com/releases/2.11.0/tracker.js) (2018-08-10)
 
 Features:
