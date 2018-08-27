@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.12.0](https://cdn.trackjs.com/releases/2.12.0/tracker.js) (2018-08-20)
+
+Features:
+  - Added Method and URL information to `failed to Fetch` errors.
+  - Added calling Stack Trace to `fetch` network errors.
+
+Bugfixes:
+  - None
+
+
 ## [Version 2.11.1](https://cdn.trackjs.com/releases/2.11.1/tracker.js) (2018-08-14)
 
 Features:
