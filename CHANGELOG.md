@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 2.13.0](https://cdn.trackjs.com/releases/2.13.0/tracker.js) (2018-08-29)
+
+Features:
+  - Added new `dependencies` config key to opt-out of window.* version discovery.
+  - Added exclusion of the `data-value` attribute from visitor element enumeration.
+
+Bugfixes:
+  - None
+
+
 ## [Version 2.12.0](https://cdn.trackjs.com/releases/2.12.0/tracker.js) (2018-08-20)
 
 Features:
