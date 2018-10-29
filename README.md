@@ -13,11 +13,11 @@ start a free trial today?](https://trackjs.com/signup)
 
 1. [Signup for TrackJS](https://trackjs.com/signup) and get your token.
 2. Add a dependency on TrackJS with `npm install trackjs --save`
-3. Install the agent in your app. You can either paste the script tags into the
+3. Install the agent in your app. You can paste the script tags into the
 `<head>` of your HTML:
 
 ```html
-<script src="PATH_TO_TRACKJS/tracker.js"></script>
+<script src="PATH_TO_TRACKJS/t.js"></script>
 <script>
   TrackJS.install({ token: 'YOUR_TOKEN_HERE' });
 </script>
