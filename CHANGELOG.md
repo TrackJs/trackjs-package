@@ -1,6 +1,19 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.0.0](https://cdn.trackjs.com/agent/3.0.0/t.js) (2018-10-29)
+
+Features:
+  - Changed the global namespace to `TrackJS`. The previous `trackJs` still exists, but is deprecated.
+  - Changed initialization behavior to be explicit, preferring to call the new `TrackJS.install(config)` instead of populating the `_trackJs` init object. The init object is still supported, but is deprecated.
+  - Added support for the agent to be loaded as a module using any of the AMD, CommonJS, or ES6 Module notations.
+  - Expanded the Typescript definition file to support the new module-based loading system.
+  - Updated the CDN paths for the new agent to prevent forcing breaking changes on users referencing `current`. The new URL paths will now be `/agent/<version>/t.js`, `/agent/v3/canary/t.js`, and `/agent/v3/latest/t.js`.
+
+Bugfixes:
+  - None
+
+
 ## [Version 2.13.0](https://cdn.trackjs.com/releases/2.13.0/tracker.js) (2018-08-29)
 
 Features:

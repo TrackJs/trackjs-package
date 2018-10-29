@@ -1,11 +1,11 @@
 {
   "name": "trackjs",
-  "version": "2.13.0",
+  "version": "3.0.0",
   "authors": ["TrackJS LLC"],
   "description": "TrackJS JavaScript error monitoring agent.",
   "license": "UNLICENSED",
-  "main": "tracker.js",
-  "moduleType": "globals",
+  "main": "index.umd.js",
+  "moduleType": "node",
   "ignore": [],
   "keywords": [
     "error",
