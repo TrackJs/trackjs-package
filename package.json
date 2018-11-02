@@ -1,25 +1,33 @@
 {
   "name": "trackjs",
-  "version": "2.13.0",
+  "version": "3.0.0",
   "description": "TrackJS JavaScript error monitoring agent.",
-  "main": "tracker.js",
-  "typings": "tracker.d.ts",
+  "main": "index.umd.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TrackJs/trackjs-package.git"
+    "url": "github:trackjs/trackjs-package"
   },
-  "author": "TrackJS LLC",
+  "author": {
+    "name": "TrackJS",
+    "email": "hello@trackjs.com",
+    "url": "https://trackjs.com/"
+  },
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
+    "email": "hello@trackjs.com",
     "url": "https://github.com/TrackJs/trackjs-package/issues"
   },
   "homepage": "https://trackjs.com/",
   "dependencies": {},
   "files": [
     "CHANGELOG.md",
+    "index.d.ts",
+    "index.esm.js",
+    "index.umd.js",
     "README.md",
     "LICENSE.md",
-    "tracker.js",
-    "tracker.d.ts"
+    "t.js"
   ]
 }

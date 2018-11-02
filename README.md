@@ -1,29 +1,44 @@
-TrackJS
+TrackJS Browser Agent
 ===============
 
-The JavaScript Browser Agent for JavaScript Browser Error Monitoring from TrackJS.
+The browser agent for collecting errors from JavaScript, Network, and console
+exceptions. The agent wraps the browser API to record context about your
+appliaction, network, and visitor, and include that context when unhandled
+errors occur.
 
-The agent wraps the Browser's API to record context about your application, the network, and the visitor leading up to errors, allowing you to recreate and debug errors fast.
+You'll need a TrackJS account to use this agent. If you don't have one, [why not
+start a free trial today?](https://trackjs.com/signup)
 
-**[Signup for TrackJS](https://trackjs.com/signup?utm_source=repository)**.
+## Quick Start
 
-**[Documentation](http://docs.trackjs.com/)**
+1. [Signup for TrackJS](https://trackjs.com/signup) and get your token.
+2. Add a dependency on TrackJS with `npm install trackjs --save`
+3. Install the agent in your app. You can paste the script tags into the
+`<head>` of your HTML:
 
-## Quickstart
+```html
+<script src="PATH_TO_TRACKJS/t.js"></script>
+<script>
+  TrackJS.install({ token: 'YOUR_TOKEN_HERE' });
+</script>
+```
 
-1. [Signup for TrackJS](https://trackjs.com/signup?utm_source=repository) and get your token.
-2. Create a `_trackJs` initialization object in your app:
+Or you can bundle it as a module into your application.
 
-    ```javascript
-    window._trackJs = { // Complete reference at http://docs.trackjs.com/
-      token: 'YOUR_TOKEN_HERE'
-    };
-    ```
+```javascript
+import { TrackJS } from 'trackjs';
+TrackJS.install({ token: 'YOUR_TOKEN_HERE' });
+```
 
-3. Include the `tracker.js` script in your app, after the initialization object. You can either reference directly, or bundle it into your other sources. We recommend that `tracker.js` be the first script to execute so that it can catch errors from everything else.
+4. Test it out by calling `TrackJS.track('testing!')` somewhere in your
+application.
+5. You should see your error on [TrackJS](https://my.trackjs.com/recent) within
+a few seconds.
 
-4. Test it out by tracking an error, either in your code or from the console: `trackJs.track('testing!')`
 
-5. See the new error in your [TrackJS Recent Errors](https://my.trackjs.com/recent) within a few seconds.
+## More Information
 
-If you run into any trouble, let us know right away at `hello@trackjs.com`
+You can find more information about how to install and configure the agent in
+the [TrackJS Documentation](https://docs.trackjs.com/). If you run into any
+trouble, let us know right away at `hello@trackjs.com`
+
