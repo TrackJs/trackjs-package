@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.0.1](https://cdn.trackjs.com/agent/3.0.1/t.js) (2018-11-10)
+
+Features:
+  - None
+
+Bugfixes:
+  - Updated install example with a safety check.
+  - Updated types definition to include the global object.
+
+
 ## [Version 3.0.0](https://cdn.trackjs.com/agent/3.0.0/t.js) (2018-10-29)
 
 Features:

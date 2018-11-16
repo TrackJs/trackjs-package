@@ -19,7 +19,7 @@ start a free trial today?](https://trackjs.com/signup)
 ```html
 <script src="PATH_TO_TRACKJS/t.js"></script>
 <script>
-  TrackJS.install({ token: 'YOUR_TOKEN_HERE' });
+  window.TrackJS && TrackJS.install({ token: 'YOUR_TOKEN_HERE' });
 </script>
 ```
 
