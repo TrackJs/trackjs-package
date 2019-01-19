@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.1.0](https://cdn.trackjs.com/agent/3.1.0/t.js) (2019-01-19)
+
+Features:
+  - Detect if we are running in a NodeJS environment and safely disable monitoring.
+
+Bugfixes:
+  - Removed warning message printed when functions are called where `enabled=false` is in the configuration.
+
+
+
 ## [Version 3.0.1](https://cdn.trackjs.com/agent/3.0.1/t.js) (2018-11-10)
 
 Features:
