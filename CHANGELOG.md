@@ -1,6 +1,16 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.1.1](https://cdn.trackjs.com/agent/3.1.1/t.js) (2019-01-26)
+
+Features:
+  - None
+
+Bugfixes:
+  - Changed how window and document are detected in the main closure for webpack.
+
+
+
 ## [Version 3.1.0](https://cdn.trackjs.com/agent/3.1.0/t.js) (2019-01-19)
 
 Features:
