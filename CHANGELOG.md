@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.1.2](https://cdn.trackjs.com/agent/3.1.2/t.js) (2019-01-31)
+
+Features:
+  - None
+
+Bugfixes:
+  - Fixed serialization of unthrown errors in IE11.
+
+
 ## [Version 3.1.1](https://cdn.trackjs.com/agent/3.1.1/t.js) (2019-01-26)
 
 Features:
