@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.2.1](https://cdn.trackjs.com/agent/3.2.1/t.js) (2019-03-02)
+
+Features:
+  - None.
+
+Bugfixes:
+  - Handle case where undefined can be thrown from an XHR listener.
+
+
 ## [Version 3.2.0](https://cdn.trackjs.com/agent/3.2.0/t.js) (2019-02-22)
 
 Features:
