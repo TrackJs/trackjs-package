@@ -1,6 +1,15 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.2.0](https://cdn.trackjs.com/agent/3.2.0/t.js) (2019-02-22)
+
+Features:
+  - Support Symbol types in object serializer.
+
+Bugfixes:
+  - Fixed error thrown when requiring into Node. Replaced with no-op.
+
+
 ## [Version 3.1.2](https://cdn.trackjs.com/agent/3.1.2/t.js) (2019-01-31)
 
 Features:
