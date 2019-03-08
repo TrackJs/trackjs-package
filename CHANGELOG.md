@@ -1,6 +1,17 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.3.0](https://cdn.trackjs.com/agent/3.3.0/t.js) (2019-03-04)
+
+Features:
+  - Changed error capture to accept a `202 Accepted` response from the API to be more accurate to behavior.
+  - Added agent version to error capture API call.
+  - Improved internal implementation of util.contains.
+
+Bugfixes:
+  - Handle case where undefined can be thrown from an XHR listener.
+
+
 ## [Version 3.2.0](https://cdn.trackjs.com/agent/3.2.0/t.js) (2019-02-22)
 
 Features:
