@@ -1,6 +1,19 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.4.0](https://cdn.trackjs.com/agent/3.4.0/t.js) (2019-08-05)
+
+Features:
+  - Check for the presence of a Node correlationId on network request for cross-referencing with the Node agent.
+  - Force TrackJS agent version into dependencies, even if we were bundled.
+  - Change method of Image creation to be safer.
+  - Added `agentPlatform` to error capture payload.
+  - Added `TrackJS.isInstalled()` for checking install state.
+
+Bugfixes:
+  - None
+
+
 ## [Version 3.3.0](https://cdn.trackjs.com/agent/3.3.0/t.js) (2019-03-04)
 
 Features:
