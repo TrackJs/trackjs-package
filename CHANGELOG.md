@@ -1,10 +1,18 @@
 JavaScript Browser Agent Changelog
 ==================================
 
-## [Version 3.5.0](https://cdn.trackjs.com/agent/3.35.0/t.js) (2019-08-12)
+
+## [Version 3.6.0](https://cdn.trackjs.com/agent/3.6.0/t.js) (2019-08-12)
+
+Bugfixes:
+  - Add safety checking to XHR header detection to not show console warnings.
+
+
+## [Version 3.5.0](https://cdn.trackjs.com/agent/3.5.0/t.js) (2019-08-12)
 
 Features:
   - Revert of 3.4.0 due to a CORS issue.
+
 
 ## [Version 3.4.0](https://cdn.trackjs.com/agent/3.4.0/t.js) (2019-08-05)
 
@@ -17,6 +25,7 @@ Features:
 
 Bugfixes:
   - None
+
 
 ## [Version 3.3.0](https://cdn.trackjs.com/agent/3.3.0/t.js) (2019-03-04)
 
