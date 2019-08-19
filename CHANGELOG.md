@@ -2,6 +2,12 @@ JavaScript Browser Agent Changelog
 ==================================
 
 
+## [Version 3.7.0](https://cdn.trackjs.com/agent/3.7.0/t.js) (2019-08-19)
+
+Features:
+  - Capture the element inner text as part of visitor Telemetry.
+
+
 ## [Version 3.6.0](https://cdn.trackjs.com/agent/3.6.0/t.js) (2019-08-12)
 
 Bugfixes:
