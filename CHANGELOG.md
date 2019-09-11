@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.1](https://cdn.trackjs.com/agent/3.7.1/t.js) (2019-09-11)
+
+Bugfixes:
+  - Change `fetch` wrapping to avoid a [Microsoft Edge Bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/23391036/) creating a `Request` object.
+  - Add `TrackJS.isInstalled()` to Typescript definition.
+
 
 ## [Version 3.7.0](https://cdn.trackjs.com/agent/3.7.0/t.js) (2019-08-19)
 
