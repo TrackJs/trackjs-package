@@ -1,4 +1,4 @@
-// Type definitions for TrackJS 3.7.0
+// Type definitions for TrackJS 3.7.1
 // Project: https://github.com/TrackJS/trackjs-package
 
 interface TrackJSStatic {
@@ -86,6 +86,13 @@ interface TrackJSStatic {
    * @param options The configuration object to apply.
    */
   install(options: TrackJSInstallOptions): boolean;
+
+  /**
+   * Whether the agent has been installed into the current environment
+   *
+   * @returns {boolean}
+   */
+  isInstalled(): boolean;
 
   /**
    * Removes a key from the metadata store, if it exists.
