@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.2](https://cdn.trackjs.com/agent/3.7.2/t.js) (2019-09-12)
+
+Bugfixes:
+  - Update `fetch` wrapping to accommodate non-standardized URL object behavior utilized by Facebook sdk.
+
+
 ## [Version 3.7.1](https://cdn.trackjs.com/agent/3.7.1/t.js) (2019-09-11)
 
 Bugfixes:
