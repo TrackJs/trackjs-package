@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.3](https://cdn.trackjs.com/agent/3.7.3/t.js) (2020-02-26)
+
+Bugfixes:
+  - Allow `undefined` configuration properties to be passed without stopping.
+
+
 ## [Version 3.7.2](https://cdn.trackjs.com/agent/3.7.2/t.js) (2019-09-12)
 
 Bugfixes:
