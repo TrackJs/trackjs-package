@@ -350,6 +350,11 @@ export interface TrackJSInstallOptions extends TrackJSConfigureOptions {
      */
     error?: boolean;
     /**
+     * Whether a warning should be recorded by a call to `console.warn`.
+     * @default false
+     */
+    warn?: boolean;
+    /**
      * Limit the console functions to be watched by whitelisting them here.
      * @default ["log","debug","info","warn","error"]
      */
