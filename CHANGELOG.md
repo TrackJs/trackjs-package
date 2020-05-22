@@ -5,7 +5,7 @@ JavaScript Browser Agent Changelog
 
 Bugfixes:
   - Fix `fetch` wrapping that caused errors during abort. ([Issue#38](https://github.com/TrackJs/trackjs-package/issues/38)).
-
+  - Add console.warn Typescript definition. ([Issue#39](https://github.com/TrackJs/trackjs-package/issues/39)).
 
 ## [Version 3.7.3](https://cdn.trackjs.com/agent/3.7.3/t.js) (2020-02-26)
 
