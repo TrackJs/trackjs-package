@@ -1,4 +1,4 @@
-// Type definitions for TrackJS 3.7.3
+// Type definitions for TrackJS 3.7.4
 // Project: https://github.com/TrackJS/trackjs-package
 
 interface TrackJSStatic {
@@ -349,6 +349,11 @@ export interface TrackJSInstallOptions extends TrackJSConfigureOptions {
      * @default true
      */
     error?: boolean;
+    /**
+     * Whether a warning should be recorded by a call to `console.warn`.
+     * @default false
+     */
+    warn?: boolean;
     /**
      * Limit the console functions to be watched by whitelisting them here.
      * @default ["log","debug","info","warn","error"]
