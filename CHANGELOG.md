@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.5](https://cdn.trackjs.com/agent/3.7.5/t.js) (2020-09-10)
+
+Bugfixes:
+  - Escapes space and tab characters in network telemetry URLs that would be automatically converted by the browser.
+
 ## [Version 3.7.4](https://cdn.trackjs.com/agent/3.7.4/t.js) (2020-05-19)
 
 Bugfixes:
