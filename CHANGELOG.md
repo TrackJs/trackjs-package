@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.6](https://cdn.trackjs.com/agent/3.7.6/t.js) (2020-11-30)
+
+Bugfixes:
+  - Handles internal failure where the reason for a Promise rejection is `null`.
+
 ## [Version 3.7.5](https://cdn.trackjs.com/agent/3.7.5/t.js) (2020-09-10)
 
 Bugfixes:

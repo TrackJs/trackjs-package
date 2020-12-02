@@ -1,4 +1,4 @@
-// Type definitions for TrackJS 3.7.5
+// Type definitions for TrackJS 3.7.6
 // Project: https://github.com/TrackJS/trackjs-package
 
 interface TrackJSStatic {
