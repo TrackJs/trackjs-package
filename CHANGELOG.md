@@ -1,6 +1,13 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.7.7](https://cdn.trackjs.com/agent/3.7.7/t.js) (2021-02-11)
+
+Bugfixes:
+  - Normalized the error messages for network failures, which sometimes do not include a `statusText` property, by removing it from the message string. Customers will no longer need duplicate ignore rules to handle both variants.
+  - Expose error when user calls `XMLHttpRequest.send` before `XMLHttpRequest.open`, which was previously treated as an internal fault.
+  - Update typescript definitions to include the `error` argument in the `onError` callback.
+
 ## [Version 3.7.6](https://cdn.trackjs.com/agent/3.7.6/t.js) (2020-11-30)
 
 Bugfixes:
