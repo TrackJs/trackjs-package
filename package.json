@@ -1,33 +1,35 @@
 {
-  "name": "trackjs",
-  "version": "3.7.7",
-  "description": "TrackJS JavaScript error monitoring agent.",
-  "main": "index.umd.js",
-  "module": "index.esm.js",
-  "types": "index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "github:trackjs/trackjs-package"
-  },
-  "author": {
-    "name": "TrackJS",
-    "email": "hello@trackjs.com",
-    "url": "https://trackjs.com/"
-  },
-  "license": "SEE LICENSE IN LICENSE.md",
-  "bugs": {
-    "email": "hello@trackjs.com",
-    "url": "https://github.com/TrackJs/trackjs-package/issues"
-  },
-  "homepage": "https://trackjs.com/",
-  "dependencies": {},
-  "files": [
-    "CHANGELOG.md",
-    "index.d.ts",
-    "index.esm.js",
-    "index.umd.js",
-    "README.md",
-    "LICENSE.md",
-    "t.js"
-  ]
+    "name":  "trackjs",
+    "version":  "3.7.7-canary.329",
+    "description":  "TrackJS JavaScript error monitoring agent.",
+    "main":  "index.umd.js",
+    "module":  "index.esm.js",
+    "types":  "index.d.ts",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "github:trackjs/trackjs-package"
+                   },
+    "author":  {
+                   "name":  "TrackJS",
+                   "email":  "hello@trackjs.com",
+                   "url":  "https://trackjs.com/"
+               },
+    "license":  "SEE LICENSE IN LICENSE.md",
+    "bugs":  {
+                 "email":  "hello@trackjs.com",
+                 "url":  "https://github.com/TrackJs/trackjs-package/issues"
+             },
+    "homepage":  "https://trackjs.com/",
+    "dependencies":  {
+
+                     },
+    "files":  [
+                  "CHANGELOG.md",
+                  "index.d.ts",
+                  "index.esm.js",
+                  "index.umd.js",
+                  "README.md",
+                  "LICENSE.md",
+                  "t.js"
+              ]
 }
