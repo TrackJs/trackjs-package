@@ -1,4 +1,4 @@
-// Type definitions for TrackJS 3.7.6
+// Type definitions for TrackJS 3.7.7
 // Project: https://github.com/TrackJS/trackjs-package
 
 interface TrackJSStatic {
@@ -277,8 +277,11 @@ export interface TrackJSConfigureOptions {
   /**
    * Custom handler to be notified *before* an error is transmitted. Can be used
    * to modify or ignore error data.
+   *
+   * @param {TrackJSErrorPayload} payload Error payload to send to TrackJS.
+   * @param {Error} error Error object that initiated the capture.
    */
-  onError?: (payload: TrackJSErrorPayload) => boolean;
+  onError?: (payload: TrackJSErrorPayload, error?: Error) => boolean;
 
   /**
    * Custom handler for serializing non-string data in errors and telemetry
