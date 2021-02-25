@@ -1,6 +1,6 @@
 {
   "name": "trackjs",
-  "version": "3.7.7",
+  "version": "3.8.0",
   "description": "TrackJS JavaScript error monitoring agent.",
   "main": "index.umd.js",
   "module": "index.esm.js",

@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.8.0](https://cdn.trackjs.com/agent/3.8.0/t.js) (2021-02-17)
+
+Features:
+  - Agent supports use inside of WebWorkers. Can be imported as a module or using `importScript`.
+  - Tooling upgrade to Node 14.5.4
+
 ## [Version 3.7.7](https://cdn.trackjs.com/agent/3.7.7/t.js) (2021-02-11)
 
 Bugfixes:
