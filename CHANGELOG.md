@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.9.0](https://cdn.trackjs.com/agent/3.9.0/t.js) (2021-03-04)
+
+Features:
+  - Added `forwardingDomain` option to allow for ad blocker bypass.
+
 ## [Version 3.8.0](https://cdn.trackjs.com/agent/3.8.0/t.js) (2021-02-17)
 
 Features:
