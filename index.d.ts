@@ -370,6 +370,12 @@ export interface TrackJSInstallOptions extends TrackJSConfigureOptions {
    */
   enabled?: boolean;
 
+  /**
+   * Domain where errors and usage data to be sent in order to bypass ad blocker
+   * restrictions to `trackjs.com`. IE "errors.example.com".
+   */
+  forwardingDomain?: string;
+
   network?: {
     /**
      * Whether events should be recorded from the network.
