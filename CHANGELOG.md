@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.9.1](https://cdn.trackjs.com/agent/3.9.1/t.js) (2021-04-23)
+
+Bugfixes:
+  - Fixed rare case where `Illegal invocation` was thrown when calling a console function.
+
 ## [Version 3.9.0](https://cdn.trackjs.com/agent/3.9.0/t.js) (2021-03-04)
 
 Features:
