@@ -1,6 +1,12 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.9.2](https://cdn.trackjs.com/agent/3.9.2/t.js) (2021-05-01)
+
+Bugfixes:
+  - Handle case where read-only error object passed into the global error handler.
+  - Handle serializing a circular-referenced object with broken property getters.
+
 ## [Version 3.9.1](https://cdn.trackjs.com/agent/3.9.1/t.js) (2021-04-23)
 
 Bugfixes:
