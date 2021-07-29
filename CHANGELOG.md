@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.10.0](https://cdn.trackjs.com/agent/3.10.0/t.js) (2021-07-15)
+
+Features:
+  - Agent supports ServiceWorkers and SharedWorkers
+
 ## [Version 3.9.2](https://cdn.trackjs.com/agent/3.9.2/t.js) (2021-05-01)
 
 Bugfixes:
