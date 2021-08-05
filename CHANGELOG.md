@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.10.1](https://cdn.trackjs.com/agent/3.10.1/t.js) (2021-08-05)
+
+Bugfixes:
+  - Fix typo in readme.
+
 ## [Version 3.10.0](https://cdn.trackjs.com/agent/3.10.0/t.js) (2021-07-15)
 
 Features:
