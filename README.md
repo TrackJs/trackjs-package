@@ -3,7 +3,7 @@ TrackJS Browser Agent
 
 The browser agent for collecting errors from JavaScript, Network, and console
 exceptions. The agent wraps the browser API to record context about your
-appliaction, network, and visitor, and include that context when unhandled
+application, network, and visitor, and include that context when unhandled
 errors occur.
 
 You'll need a TrackJS account to use this agent. If you don't have one, [why not
