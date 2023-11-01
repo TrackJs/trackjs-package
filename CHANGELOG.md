@@ -1,6 +1,11 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.10.2](https://cdn.trackjs.com/agent/3.10.2/t.js) (2023-10-23)
+
+Features:
+  - Verified with Node 18 LTS
+
 ## [Version 3.10.1](https://cdn.trackjs.com/agent/3.10.1/t.js) (2021-08-05)
 
 Bugfixes:
