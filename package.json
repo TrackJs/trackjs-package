@@ -1,6 +1,6 @@
 {
     "name":  "trackjs",
-    "version":  "3.10.2-canary.360",
+    "version":  "3.10.3-canary.361",
     "description":  "TrackJS JavaScript error tracking agent.",
     "main":  "index.umd.js",
     "module":  "index.esm.js",
