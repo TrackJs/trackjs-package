@@ -212,15 +212,15 @@ export interface TrackJSErrorPayload {
     /** Timestamp the request started */
     startedOn: ISO8601DateString;
     /** Timestamp the request completed */
-    completedOn: ISO8601DateString;
+    completedOn?: ISO8601DateString;
     /** HTTP Method used */
     method: string;
     /** URL Requested */
     url: string;
     /** HTTP Status Code */
-    statusCode: number;
+    statusCode?: number;
     /** HTTP Status Text */
-    statusText: string;
+    statusText?: string;
     /** Mechanism of network use. IE "fetch", "xhr" */
     type: string;
   }[];
