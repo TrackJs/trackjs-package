@@ -1,4 +1,4 @@
-// Type definitions for TrackJS 3.10.3
+// Type definitions for TrackJS 3.10.4
 // Project: https://github.com/TrackJS/trackjs-package
 
 interface TrackJSStatic {
@@ -137,7 +137,7 @@ interface TrackJSStatic {
 /**
  * String formatted as an ISO-8601 Date. Example 0000-00-00T00:00:00.000Z
  */
-export interface ISO8601DateString extends String {}
+export interface ISO8601DateString extends String { }
 
 /**
  * Payload of an error sent to TrackJS. Useful when manipulating errors via
@@ -212,15 +212,15 @@ export interface TrackJSErrorPayload {
     /** Timestamp the request started */
     startedOn: ISO8601DateString;
     /** Timestamp the request completed */
-    completedOn: ISO8601DateString;
+    completedOn?: ISO8601DateString;
     /** HTTP Method used */
     method: string;
     /** URL Requested */
     url: string;
     /** HTTP Status Code */
-    statusCode: number;
+    statusCode?: number;
     /** HTTP Status Text */
-    statusText: string;
+    statusText?: string;
     /** Mechanism of network use. IE "fetch", "xhr" */
     type: string;
   }[];

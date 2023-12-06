@@ -1,6 +1,10 @@
 JavaScript Browser Agent Changelog
 ==================================
 
+## [Version 3.10.4](https://cdn.trackjs.com/agent/3.10.4/t.js) (2023-12-05)
+
+Update Typescript types for Network optional fields.
+
 ## [Version 3.10.3](https://cdn.trackjs.com/agent/3.10.3/t.js) (2023-11-13)
 
 No Change, build system updates.
