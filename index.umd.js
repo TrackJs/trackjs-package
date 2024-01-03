@@ -1,5 +1,5 @@
 //! TrackJS JavaScript error monitoring agent.
-//! COPYRIGHT (c) 2023 ALL RIGHTS RESERVED
+//! COPYRIGHT (c) 2024 ALL RIGHTS RESERVED
 //! See License at https://trackjs.com/terms/
 (function(global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = { TrackJS: factory() } :

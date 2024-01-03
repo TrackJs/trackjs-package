@@ -1,5 +1,5 @@
 //! TrackJS JavaScript error monitoring agent.
-//! COPYRIGHT (c) 2023 ALL RIGHTS RESERVED
+//! COPYRIGHT (c) 2024 ALL RIGHTS RESERVED
 //! See License at https://trackjs.com/terms/
 self.TrackJS=self.trackJs=(function(g,l,n){"use awesome";var u=function(a,b){this.config=a;this.onError=b;a.enabled&&this.watch()};u.prototype={watch:function(){c.forEach(["EventTarget","Node","XMLHttpRequest"],function(a){c.has(g,a+".prototype.addEventListener")&&c.hasOwn(g[a].prototype,"addEventListener")&&this.wrapEventTarget(g[a].prototype)},this);this.wrapTimer("setTimeout");this.wrapTimer("setInterval")},wrap:function(a){function b(){try{return a.apply(this,arguments)}catch(b){throw d.onError("catch",b,{bindTime:e,bindStack:f}),
 c.wrapError(b);}}var d=this;try{if(!c.isFunction(a)||c.hasOwn(a,"__trackjs__"))return a;if(c.hasOwn(a,"__trackjs_state__"))return a.__trackjs_state__}catch(p){return a}var e,f;if(d.config.bindStack)try{throw Error();}catch(p){f=p.stack,e=c.isoNow()}for(var h in a)c.hasOwn(a,h)&&(b[h]=a[h]);b.prototype=a.prototype;b.__trackjs__=!0;return a.__trackjs_state__=b},wrapEventTarget:function(a){var b=this;c.has(a,"addEventListener.call")&&c.has(a,"removeEventListener.call")&&(c.patch(a,"addEventListener",
